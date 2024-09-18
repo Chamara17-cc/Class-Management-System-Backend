@@ -41,7 +41,7 @@ namespace Class_Management_System.Models
         public ICollection<GoodEveningPaperSubmission> GoodEveningPaperSubmissions { get; set; }
         public ICollection<PastPaperSubmission> PastPaperSubmissions { get; set; }
 
-        public Attendance Attendance { get; set; }
+        public Attendence Attendance { get; set; }
         public FeePayment FeePayment { get; set; }
     }
 }
